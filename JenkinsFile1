@@ -10,7 +10,7 @@ new commit  pipeline{
     stages{
         stage('Checkout on git'){
             agent any
-            steps{
+            steps{  
                 git 'https://github.com/devops-trainer/DevOpsClassCodes.git'
             }
         }
